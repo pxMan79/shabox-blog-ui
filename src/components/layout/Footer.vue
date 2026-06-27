@@ -9,7 +9,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          陕ICP备2021007284号-1
+          陕ICP备2026016278号-1
         </a>
         <span class="record-separator" aria-hidden="true">|</span>
         <a

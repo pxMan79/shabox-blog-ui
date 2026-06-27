@@ -69,13 +69,13 @@ const currentPost = computed(() => {
 watchEffect(() => {
   if (currentPost.value) {
     useHead({
-      // 将页面标题变成 "文章标题 - 封盒日记"
-      title: `${currentPost.value.title} - 封盒日记`,
+      // 将页面标题变成 "文章标题 - 沙盒屋"
+      title: `${currentPost.value.title} - 沙盒屋`,
       meta: [
         {
           name: 'description',
           // 巧妙利用你 Markdown 里的 quote 作为 SEO 的描述摘要
-          content: currentPost.value.quote || '像素人的封盒日记文章详情'
+          content: currentPost.value.quote || '像素人的沙盒屋文章详情'
         }
       ],
       // 👇 新增：防御 URL 参数导致的权重流失

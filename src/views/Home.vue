@@ -43,7 +43,7 @@ import PostCard from '@/components/widgets/PostCard.vue';
 import { useHead } from '@unhead/vue';
 // 动态注入该页面的 SEO 信息
 useHead({
-  title: '封盒日记',
+  title: '沙盒屋',
   meta: [
     {
       name: 'description',
